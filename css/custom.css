@@ -1,4 +1,8 @@
-body{
-  background-color: grey;
+
+
+.bar{
+  background-color: red;
+  margin-top: 1;
+  width: 1;
 
 }
