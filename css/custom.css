@@ -1,8 +1,45 @@
 
+.top-bar{
+  background:red;
+  height:5px;
+  margin-bottom: 1px;
+}
 
-.bar{
-  background-color: red;
-  margin-top: 1;
-  width: 1;
+.jumbotron{
 
+  background:url(..\images\fsociety.png);
+  height:400px;
+  background-color: grey;
+}
+
+.jumbotron [class*="col-"]{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #eee;
+  border:1px solid #dddd;
+  background-color: rgba(86,61,124,.15);
+  border: 1px solid rgba (86,61,124,.2);
+  overflow:auto;
+  height= 350px;
+}
+
+.jumbotron-content{
+  color:#ffffff;
+}
+
+.navbar{
+  margin-bottom: 1px;
+}
+
+.navbar li:hover{
+  background: red;
+}
+
+.bluebox{
+  background:blue;
+  
+  height:230px;
+  color:#ffffff;
+  padding:0 10px;
+  font-size: 120%;
 }
